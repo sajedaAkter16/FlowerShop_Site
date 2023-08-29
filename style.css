@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+/* start banner section  */
+header{
+    /* width: 1220px; */
+    height: 550px;
+    flex-shrink: 0;
+    padding: 20px;
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 100px;
+}
+.banner{
+    display: flex;
+    gap: 10px;
+    padding-left: 50px;
+}
+h1{
+    width: 708px;
+    color: #272727;
+/* font-family: Lato; */
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner p{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.banner img{
+    width: 485px;
+height: 550px;
+flex-shrink: 0;
+margin-left: 97px;
+}
+button{
+    color: white;
+    background-color: indigo;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* end banner section */
+
+
+/* start about section */
+.info {
+    text-align: center;
+ margin:0 auto;
+
+}
+.about{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 50px;
+    background-color:rgb(240, 240, 240);
+    padding: 30px;
+    margin-top: 20px;
+ 
+}
+
+.image1{
+    position: relative;
+  width: 400px;
+  height: 300px;
+  border: 3px solid #73AD21;
+  border-radius: 10px;
+}
+.image2{
+    position: absolute;
+    top: 950px;
+    right: 850px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+.details{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 50px;
+  
+
+}
+h3{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+/* start feature section */
+.feature {
+    width: 1200px;
+    margin: 150px auto;
+    
+
+}
+.feature p{
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: 0 auto; */
+ 
+
+}
+.features div{
+    width: 400px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 20px 5px;
+}
+.features p{
+    
+    text-decoration: underline;
+    font-weight: bold;
+    width: 250px;
+    margin: 0 75px;
+}
+.feature img{
+    width: 314px;
+height: 371px;
+padding: 50px;
+}
+/* end feature section */
+
+/* start sale section */
+.sale {
+    display: flex;
+
+    background: rgba(229, 84, 115, 0.05);
+   text-align: center;
+   padding: 60px;
+}
+.sales{
+    margin:10px auto ;
+    padding: 20px ;
+}
+.sale p{
+    width: 550px;
+    margin: 0 50px;
+    /* text-align: center; */
+}
+.sales button{
+  margin-right: 40px;
+  margin-top: 20px;
+} 
+.sale img{
+    margin-right: 80px;
+    padding: 20px;
+}
+/* end sale section */
+
+/* start instagram section */
+.instagram{
+    height: 449px;
+    margin: 120px 60px;
+    text-align: center;
+    padding-top: 60px;
+   
+}
+.instagram img{
+    width: 320px;
+height:356px;
+margin: 5px 13px;
+}
+.instagram h1{
+    text-align: center;
+    margin: 0 auto;
+}
+/* end instagram section */
+
+
+/* start Customar review section */
+
+h5{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card_body{
+    width: 400px;
+    /* height: 370px; */
+    border:2px solid lightgray;
+    border-radius: 8px;
+}
+.card_body img{
+    width: 300px;
+    height: 350px;
+    padding:10px 50px;
+    
+}
+.infos{
+    text-align: center;
+    font-size: 15px;
+    line-height:normal;
+}
+.infos h4{
+    font-size: 40px;
+
+}
+/* start subscribe section */
+.subscribe{
+    /* width: 1440px; */
+   height: 449px;
+    background-image: url('/images//Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 50px 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+.subscribe h1{
+    /* text-align: center;
+     */
+    margin: 0 auto;
+
+    }
+input{
+    border-radius: 8px;
+    width: 650px;
+    height: 44px;
+ 
+}
+.subscribe button{
+    padding: 5px;
+    background-color:#E55473;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+/* end subscribe section */
+
+/* start footer section */
+footer{
+    /* width: 1222px; */
+height: 200px;
+background: #111010;
+color: rgb(223, 223, 223);
+text-align: center;
+padding: 80px 5px;
+}
+footer h1{
+    color: white;
+    margin:0 auto;
+  
+}
+/* end footer section */
