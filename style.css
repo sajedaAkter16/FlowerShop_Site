@@ -17,12 +17,15 @@ header{
 .banner{
     display: flex;
     gap: 10px;
-    padding-left: 50px;
+    padding-left: 70px;
 }
-h1{
+.banner h1{
+    color: rgb(2, 155, 63);
+    font-family: 'Oleo Script', cursive;
+}
+ h1{
     width: 708px;
-    color: #272727;
-/* font-family: Lato; */
+  
 font-size: 50px;
 font-style: normal;
 font-weight: 800;
@@ -116,7 +119,6 @@ h3{
     width: 650px;
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -147,9 +149,29 @@ margin-left: 140px;
 padding: 10px 20px;
 
 }
+.feature_card .img1{
+    width: 80%;
+    height: 70%;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 242, 245, 0.15);
+margin-left: 140px;
+padding: 10px 20px;
+
+}
+.feature_card .img2{
+    width: 80%;
+    height: 70%;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(187, 239, 84, 0.15);
+margin-left: 140px;
+padding: 10px 20px;
+
+}
 .feature_card p{
+    margin-top: 20px ;
     font-size: 20px;
     color: black;
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -164,7 +186,7 @@ padding: 10px 20px;
    padding: 60px;
 }
 .sale1{
-    width: 800px;
+    width: 790px;
     margin: 0 auto;
 }
 .sales{
@@ -280,8 +302,19 @@ text-align: center;
 padding: 80px 5px;
 }
 footer h1{
+    font-family: 'Dancing Script', cursive;
     color: white;
     margin:0 auto;
+    font-size: 60px;
   
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    margin: 5px 7px;
+}
+span{
+    color: rgb(246, 100, 125);
 }
 /* end footer section */
